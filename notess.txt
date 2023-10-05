@@ -5,3 +5,6 @@ aliases are used to conveniently and simply import from different directories
 using react-icons to make the icons from the https://react-icons.github.io/react-icons/ website
 
 Link tag: go to the URL without refreshing the page
+
+using the next-themes for the dark mode, but useContext can only be used with client side but to not make the entire layout client side, we can wrap it in another comonent
+So we will wrap all the layout.jsx contents into Provider Component, and then in that Provider component, we will use the theme pckeg's ThemeProvider.
