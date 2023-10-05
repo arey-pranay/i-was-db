@@ -1,0 +1,7 @@
+the head.jsx acts like the head tag of your html files. It has the meta data, and you use this for SEO otimization and stuffs
+the layout.jsx has the part tht is not supposed to go away in any case. So it is always there.
+the page.jsx contains the actual content that you want to create
+aliases are used to conveniently and simply import from different directories
+using react-icons to make the icons from the https://react-icons.github.io/react-icons/ website
+
+Link tag: go to the URL without refreshing the page
