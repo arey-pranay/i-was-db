@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-6xl pb-8 mx-auto space-y-4">
+    <div className="max-w-6xl pb-8 px-8 mx-auto space-y-4">
       <h1 className="text-2xl font-medium text-purple-500">About</h1>
       <p>
         Once upon a time, in the vast and quirky world of the internet, there
