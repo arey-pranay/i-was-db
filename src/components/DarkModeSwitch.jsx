@@ -5,7 +5,7 @@ import { BsFillMoonFill } from "react-icons/bs";
 import { useTheme } from "next-themes";
 const DarkModeSwitch = () => {
   const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const currentTheme = theme === "system" ? "dark" : theme;
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     setMounted(true);

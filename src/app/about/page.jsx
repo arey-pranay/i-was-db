@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="max-w-6xl pb-8 px-8 mx-auto space-y-4">
+    <div className="max-w-6xl py-8 px-8 mx-auto space-y-4">
       <h1 className="text-2xl font-medium text-purple-500">About</h1>
       <p>
         Once upon a time, in the vast and quirky world of the internet, there
@@ -40,10 +40,7 @@ function About() {
       <p>
         So, welcome to &quot;I Was DB,&quot; the little movie corner that
         refused to be forgotten. Here, we celebrate the movies that may not have
-        won Oscars but won our hearts. We&apos;ve got reviews that are as candid
-        as your best friend&apos;s late-night movie rants and recommendations
-        that come with a side of humor. Stick around for a dose of movie trivia,
-        bizarre facts, and a ton of laughs. We might not be the biggest, but
+        won Oscars but won our hearts. We might not be the biggest, but
         we&apos;re definitely the quirkiest. Let&apos;s embark on this cinematic
         journey together !
       </p>

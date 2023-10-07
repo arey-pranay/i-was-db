@@ -5,7 +5,7 @@ import { BsFillHandThumbsUpFill } from "react-icons/bs";
 
 export default function Card({ result }) {
   return (
-    <div className="cursor-pointer bg-slate-200 dark:bg-transparent sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg dark:sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group">
+    <div className="cursor-pointer bg-slate-200 dark:bg-transparent p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg dark:border border-slate-400 m-5 sm:m-2 transition-shadow duration-200 group">
       <Link href={`/movie/${result.id}`}>
         <Image
           src={`https://image.tmdb.org/t/p/original/${
@@ -20,7 +20,7 @@ export default function Card({ result }) {
             height: "auto",
           }}
           placeholder="blur"
-          blurDataURL="/spinner.svg"
+          blurDataURL="/loadingTriangle2.svg"
         />
         <div className="p-2">
           <h2 className="text-lg font-medium line-clamp-2 text-purple-800 dark:text-purple-300">
